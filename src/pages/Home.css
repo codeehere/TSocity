@@ -1,0 +1,152 @@
+/* Home.css */
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.trending-news, .top-categories, .most-popular {
+  margin: 3rem 0;
+}
+.top-categories{
+  overflow-x: scroll;
+}
+.carousel {
+  display: flex;
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.category-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.category-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.popular-articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.article-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.article-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.article-card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.article-card a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.article-card a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footer-links {
+  margin-top: 1.5rem;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
