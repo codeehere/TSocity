@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TSocity2/static/css/main.bc6506c5.css",
+    "main.js": "/TSocity2/static/js/main.a55b7084.js",
+    "static/js/453.2e123db5.chunk.js": "/TSocity2/static/js/453.2e123db5.chunk.js",
+    "static/media/loader.gif": "/TSocity2/static/media/loader.7da2ba137c025b3fba7e.gif",
+    "index.html": "/TSocity2/index.html",
+    "main.bc6506c5.css.map": "/TSocity2/static/css/main.bc6506c5.css.map",
+    "main.a55b7084.js.map": "/TSocity2/static/js/main.a55b7084.js.map",
+    "453.2e123db5.chunk.js.map": "/TSocity2/static/js/453.2e123db5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc6506c5.css",
+    "static/js/main.a55b7084.js"
+  ]
+}
